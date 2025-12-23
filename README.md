@@ -1,2 +1,15 @@
-# vision-representation-learning
-Built an end-to-end computer vision pipeline that learns transferable visual features using CNNs and reuses them for downstream generative modeling (GANs and Diffusion Models). The project emphasizes dataset curation, representation learning, quantitative evaluation, and reproducible research-oriented experimentation.
+# Vision Representation Learning
+
+## Overview
+This project studies learning transferable visual representations using CNNs and reusing them for downstream generative tasks such as GANs and Diffusion Models.
+
+## Structure
+- Data curation and preprocessing
+- CNN feature learning
+- Representation reuse for generation
+- Quantitative and qualitative evaluation
+
+## How to Run
+pip install -r requirements.txt
+python src/train.py
+python src/evaluate.py
